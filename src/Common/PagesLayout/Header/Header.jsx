@@ -1,14 +1,18 @@
 import styled from "styled-components";
 
+/* Media Query ---------------------------*/
+import { useMediaQuery } from "@/Common/useMediaQuery";
+
 /* Components ---------------------------*/
 import MediumLarge from "./MediumLarge";
 import Small from "./Small";
 
 const Header = () => {
+    const { isMediumAndUp } = useMediaQuery();
     return (
         <HeaderStyled className="Header">
             <MediumLarge />
-            <Small />
+            {isMediumAndUp ? <MediumLarge /> : <Small />}
         </HeaderStyled>
     );
 };
