@@ -11,7 +11,6 @@ const Header = () => {
     const { isMediumAndUp } = useMediaQuery();
     return (
         <HeaderStyled className="Header">
-            <MediumLarge />
             {isMediumAndUp ? <MediumLarge /> : <Small />}
         </HeaderStyled>
     );
