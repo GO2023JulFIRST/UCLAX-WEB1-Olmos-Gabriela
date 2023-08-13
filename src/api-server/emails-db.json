@@ -1,0 +1,40 @@
+{
+  "submissions": [
+    {
+      "id": "2b009fa2-9ebc-4ea0-ad9e-84c94b0c8e51",
+      "name": "Mitch",
+      "email": "meatch@me.com",
+      "message": "Some message would go here."
+    },
+    {
+      "id": "931b2b60-24de-4ec8-9f1f-aafd17f0a404",
+      "name": "George",
+      "email": "george@me.com",
+      "message": "Another message"
+    },
+    {
+      "id": "9792672f-f6cb-4b29-98c4-5f45ba24b66b",
+      "name": "Tan",
+      "email": "tan@me.com",
+      "message": "A message from Tan"
+    },
+    {
+      "id": "bf4385ca-efaf-4e0d-8433-2c40d30a95cd",
+      "name": "Slim Shaddy",
+      "email": "slim@shady.com",
+      "message": "Will the real shady please stand up."
+    },
+    {
+      "id": "b698f797-85e8-42ce-924d-edba824ca1e1",
+      "name": "Sherry",
+      "email": "sherry@shady.com",
+      "message": "Some other message."
+    },
+    {
+      "id": "702a77e5-8138-4c33-b2eb-77d78f22e3e6",
+      "name": "Sherry",
+      "email": "sherry@shady.com",
+      "message": "Some other message."
+    }
+  ]
+}
