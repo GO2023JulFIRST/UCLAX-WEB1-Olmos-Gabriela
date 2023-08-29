@@ -1,9 +1,16 @@
 import styled from "styled-components";
+import ReactPlayer from "react-player";
+
+/* Components ---------------------------*/
+import Inset from "@/Common/PagesLayout/Inset";
 
 const Video = () => {
     return (
         <VideoStyled className="Video">
-            <h1>Video</h1>
+            <Inset>
+                <h1>Video</h1>
+                <ReactPlayer url="https://www.youtube.com/watch?v=PDEk0mHOEHU" />
+            </Inset>
         </VideoStyled>
     );
 };

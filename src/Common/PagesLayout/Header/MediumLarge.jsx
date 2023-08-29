@@ -19,6 +19,7 @@ const MediumLarge = () => {
                                 Home
                             </NavLink>
                             <NavLink to={"/staff"}>Presenters</NavLink>
+                            <NavLink to={"/video"}>Video</NavLink>
                             <NavLink to={"/contact"}>Contact</NavLink>
                             <NavLink to={"/course-work"}>Course</NavLink>
                         </nav>
