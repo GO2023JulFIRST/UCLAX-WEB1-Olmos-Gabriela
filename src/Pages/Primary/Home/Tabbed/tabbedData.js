@@ -1,24 +1,24 @@
-import image1 from './img/Alex-Esqueda-Box-Jump.jpg';
-import image2 from './img/Tire-Flip.jpg';
-import image3 from './img/Kids.jpg';
+import image1 from "./img/ConferenceAbout2.jpg";
+import image2 from "./img/ConferenceMission2.jpg";
+import image3 from "./img/ConferenceVision2.jpg";
 
 export const tabbedData = [
     {
         id: 1,
         image: image1,
-        title: 'About',
-        text: '<p>Join a <b>community</b> of people working hard every day to live a better quality of life, and have fun doing it!  At CrossFit Decimate, we provide inclusive programming, individualized modifications, and top-trained coaches to give you the best fitness journey  to fit your lifestyle.</p>',
+        title: "About",
+        text: "<p>The <b>Online Ed Accessibility Conference</b> is the place to learn best practices, share stories with your peers, and expand your knowledge on a wide range of accessibility in online education topics. Beginners and experts, non-technical and technical users, and everyone in-between will benefit from attending.</p>",
     },
     {
         id: 2,
         image: image2,
-        title: 'Mission',
-        text: '<p>At Decimate, we believe that just like your fitness journey, nutrition is not a “one size fits all”.  Our highly trained nutrition coaches work alongside you to help you achieve your optimal health and fitness goals.  Through one-on-one coaching and personalized nutrition programming, our coaches are able to determine the best nutrition plan for you.</p>',
+        title: "Mission",
+        text: "<p>Accessible online content means that everyone is included--no one is left out of receiving an education. Creating accessible materials in online learning provides students with equal opportunities to learn.  Without accessible content, some students will not be able to understand what is being taught. Not only is accessibility the right thing to do, but it is the law.</p>",
     },
     {
         id: 3,
         image: image3,
-        title: 'Vision',
-        text: '<p>With our highly qualified and trained coach, Kara Smith, CrossFit Decimate is able to provide adaptive and inclusive workouts for each individual athlete, whether you are injured or working with a disability.  At CrossFit Decimate we believe that all people can workout and want to workout, they just need to be guided on how to achieve their goals.  Coach Kara offers modifications to each workout to help each athlete achieve their own level of success.  </p>',
+        title: "Vision",
+        text: "<p>Accessibility in Online Education emphasizes the need to allow students with disabilities to engage in all class activities and to access all course materials and resources to the same degree as students without disabilities. From programming to content design, this conference offers value for everyone who wants to ensure that content is accessible to all learners.</p>",
     },
 ];

@@ -1,125 +1,136 @@
-import image1 from "./img/Alex-Esqueda.jpg";
-import image2 from "./img/Silvie-Esqueda.jpg";
-import image3 from "./img/Kara-Smith.jpg";
-import image4 from "./img/Brook.jpg";
-import image5 from "./img/Amber-Dyett.jpg";
-import image6 from "./img/Dr-Skyler-Harms.jpg";
-import image7 from "./img/Elisa-Eastwood.jpg";
-import image8 from "./img/Jaque-Ong.jpg";
-import image9 from "./img/John-Giron.jpg";
-import image10 from "./img/Karlie-Goretski.jpg";
-import image11 from "./img/Shana-Millspaugh.jpg";
+import image1 from "./img/AlexAhlstrom.jpg";
+import image2 from "./img/MarkSmith2.jpg";
+import image3 from "./img/BrianaBailey2.jpg";
+import image4 from "./img/AmbarWetsman2.jpg";
+import image5 from "./img/JoshuaRivera.jpg";
+import image6 from "./img/JeremySedane2.jpg";
+import image7 from "./img/DaliaFuentes.jpg";
+import image8 from "./img/BryanArnold2.jpg";
+import image9 from "./img/MattGiron.jpg";
+import image10 from "./img/RutiJayakar2.jpg";
+import image11 from "./img/EmilyMassaro2.jpg";
 
 export const staffData = [
     {
         id: 1,
         image: image1,
-        name: "Alex Esqueda",
+        name: "Alex Ahlstrom",
         yearStarted: 2013,
         accolades: [
-            "Co-Owner, PageMeta Coach ",
-            "Program Designer CrossFit Decimate ",
-            "Decimate Performance Training ",
-            "CCFT/L-3 Certified CrossFit Trainer",
+            "SimpsonScarborough",
+            "Associate Director of Data Products",
+            "His approach to data features three guiding principles: equity, innovation and creativity",
         ],
     },
     {
         id: 2,
         image: image2,
-        name: "Silvie Esqueda",
+        name: "Mark Smith",
         yearStarted: 2013,
         accolades: [
-            "Co-Owner & Coach",
-            "CF-L2",
-            "USAW L-1",
-            "Precision Nutrition L-1",
+            "CCC Accessibility Center",
+            "Alternative Media and Assistive, Technology Specialist",
+            "Expert in assistive technology, alternative media, and document remediation",
         ],
     },
     {
         id: 3,
         image: image3,
-        name: "Kara Smith",
+        name: "Briana Bailey",
         yearStarted: 2012,
         accolades: [
-            "Lead Coach & Operations Assistant   ",
-            "​CF-L2 Trainer",
-            "ATA Certified: Adaptive & Inclusive Trainer",
-            "The Phoenix (Volunteer)",
+            "University of Virginia ",
+            "​Digital Accessibility Coordinator",
+            "Certified Professional in Accessibility Core Competencies from International Association of Accessibility Professionals",
+            "Web Developer since 2010",
         ],
     },
     {
         id: 4,
         image: image4,
-        name: "Brook",
+        name: "Ambar Wetsman",
         yearStarted: 2019,
         accolades: [
-            "Coach: Group Classes & Fundementals",
-            "CF-L2 , Trainer",
-            "ISSA Personal Trainer ",
-            "Nutrition Coach",
+            "Equalize Digital",
+            "Founder & CEO",
+            "Certified B Corp specializing in WordPress Accessibility",
+            "Maker of the Accessibility Checker Plugin",
         ],
     },
     {
         id: 5,
         image: image5,
-        name: "Amber Dyett",
+        name: "Joshua Rivera",
         yearStarted: 2016,
-        accolades: ["Coach", "CF-L2", "PN-1", "BIRTHFIT Certified"],
+        accolades: [
+            "University of California, Davis",
+            "Accessible Technology Coordinator",
+            "Web Developer since 2015",
+            "Tech Consultant for the UC Davis MIND Institute",
+        ],
     },
     {
         id: 6,
         image: image6,
-        name: "Dr Skyler Harms",
+        name: "Jeremy Sedane",
         yearStarted: 2010,
         accolades: [
-            "Physical Therapist",
-            "Doctor of Physical Therapy",
-            "Titleist Performance Institute Certified",
-            "Dry Needling Level 2",
+            "North Idaho College",
+            "IT Accessibility Coordinator",
+            "Web and Multimedia Specialist",
+            "Certified Professional in Accessibility Core Competencies from International Association of Accessibility Professionals",
         ],
     },
     {
         id: 7,
         image: image7,
-        name: "Elisa Eastwood",
+        name: "Dalia Fuentes",
         yearStarted: 2014,
         accolades: [
-            "Coach: Group Classes & Fundamentals",
-            "​CF-L1",
-            "2018 CF Regional Competitor",
+            "University of North Carolina",
+            "​Digital Accessibility Coordinator",
+            "Accessibility Consultant for Deque systems, Inc.",
         ],
     },
     {
         id: 8,
         image: image8,
-        name: "Jaque Ong",
+        name: "Bryan Arnold",
         yearStarted: 2012,
         accolades: [
-            "PageMeta Olympic Lifting Coach",
-            "U.S.A.W",
-            "IKKF Instructor",
-            "Sports & Performance Cert Trainer",
+            "University of Michigan Libraries",
+            "Project Manager, Accessibility Remediation Program",
+            "Library professional with experience in copyright, open access publishing, and accessibility",
+            "Currently leads a team of talented and skilled students who focus on adding accessibility features to media in the University of Michigan's Library digital collections.",
         ],
     },
     {
         id: 9,
         image: image9,
-        name: "John Giron",
+        name: "Matt Giron",
         yearStarted: 2010,
-        accolades: ["Coach: Group Classes & Fundamentals", "CF-L1"],
+        accolades: [
+            "Penn State University",
+            "Accessibility Coordinator",
+            "Certified Professional in Accessibility Core Competencies (CPACC) through the International Association of Accessibility Professionals (IAAP)",
+        ],
     },
     {
         id: 10,
         image: image10,
-        name: "Karlie Goretski",
+        name: "Ruti Jayakar",
         yearStarted: 2015,
-        accolades: ["Coach: Kids CF", "CF-L1"],
+        accolades: ["Penn State University", "UX and Accessibility Consultant"],
     },
     {
         id: 11,
         image: image11,
-        name: "Shana Millspaugh",
+        name: "Emily Massaro",
         yearStarted: 2013,
-        accolades: ["Coach", "CF-L1", "USAW L-1"],
+        accolades: [
+            "Harvard University",
+            "Digital Accessibility Developer",
+            "UX and Accessibility Consultant",
+        ],
     },
 ];
