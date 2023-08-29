@@ -926,6 +926,7 @@ In order to be iterable, non-array objects must have a [Symbol.iterator]() metho
         top: 300px;
         right: 0px;
         bottom: 0px;
+        z-index: 1000;
 
         background-color: #405baa;
 
